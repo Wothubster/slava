@@ -1,0 +1,1184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(light24.png); /* Исправленное значение цвета фона */
+    background-size: auto; /* Зробіть фон відповідним розміру */
+    background-position: center; /* Центруйте фон */
+    background-repeat: repeat; /* Забороніть повторення фону */
+}
+
+
+
+.buttton {
+    float: center; 
+        margin-left: 564px; 
+}
+
+
+.logotype {
+        float: left; 
+        margin-right: 1050px; 
+}
+
+.logo {
+    max-width: 50%; /* Сделает логотип адаптивным (не выходит за границы родительского контейнера) */
+    height: auto; /* Поддерживает пропорциональное изменение размеров */
+    display: flex; /* Включает flexbox */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+
+/* Решта вашого CSS залишається без змін */
+header {
+    background-color: #f8f8f8; /* Цвет фона заголовка, замените по необходимости */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Решта вашого CSS залишається без змін */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    margin-left: 10%; /* Задайте відстань зліва */
+    margin-right: 40%; /* Задайте відстань справа */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+    background-color: rgba(255, 255, 255, 0.1); /* Додаємо підсвічування фону */
+    transform: scale(1.1); /* Збільшуємо кнопку трохи */
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#bonuses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#bonuses h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.bonus {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #ffcc00;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(238, 13, 13, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s;
+    border: 2px solid #ff9933;
+}
+
+.bonus img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.bonus-text {
+    text-decoration: none;
+    color: #110303;
+    font-size: 14px;
+}
+
+.bonus:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#games h2,
+#bonuses,
+#promotions h2 {
+    color: #ffffff; /* Зробіть текст білим */
+}
+.bonus img {
+    color: #000000; /* Зробіть текст білим */
+}
+
+/* Спільні стилі для тексту "Бонуси", "Ігри", "Акції", "Контакти" та кнопок */
+/* Загальні стилі для тексту в верхньому меню та кнопок */
+nav a,
+.button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #031e58;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Застосовуємо стилі тільки до тексту в верхньому меню */
+nav a {
+    margin: 0;
+}
+
+#games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#games h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.game {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #ffcc00;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(238, 13, 13, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s;
+    border: 2px solid #ff9933;
+}
+
+.game img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+/*кнопка блять ігри*/
+.buttongame {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #babd00;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.game-text {
+    background-color: #171e29;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5; /* Видаляє зовнішній відступ */
+    height: 22px; /* верх */
+    margin-bottom: 66px; /* низ */
+    margin-left: none; /* Змініть це значення на те, яке вам потрібно для відстані зліва */
+    margin-right: none; /* Змініть це значення на те, яке вам потрібно для відстані справа */
+}
+
+/*нове*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .main-nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-nav.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    position: fixed; /* Зробимо іконку зафіксованою, щоб вона залишалася на місці при прокручуванні */
+    top: 20px;
+    right: 20px;
+}
+
+.menu {
+    display: none;
+    position: fixed; /* Зробимо меню зафіксованим, щоб воно виводилося внизу */
+    bottom: 0;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.menu-icon:hover + .menu,
+.menu:hover {
+    display: block;
+}
+
+
+/* Стилі для розділу "Акції" */
+
+#promotions {
+    background-color: #ffffff; /* Колір фону розділу */
+    padding: 20px; /* Внутрішні відступи */
+}
+
+#promotions h2 {
+    font-size: 28px; /* Розмір шрифту заголовка */
+    text-align: center; /* Вирівнювання заголовка по центру */
+    margin-bottom: 20px; /* Відступ знизу заголовка */
+}
+
+#promotions p {
+    font-size: 16px; /* Розмір шрифту тексту */
+    line-height: 1.5; /* Висота рядка */
+    text-align: justify; /* Вирівнювання тексту по ширині з вирівнюванням за рахунок пробілів */
+}
+
+
+
+#promotions .book img {
+    max-width: 100%;
+    border: 1px solid #ddd; /* Рамка навколо зображення */
+    border-radius: 5px; /* Закруглені кути зображення */
+    margin-bottom: 10px; /* Відступ знизу зображення */
+}
+
+#promotions .book .text-container {
+    background-color: #ffffff; /* Колір фону для текстового блоку */
+    padding: 20px; /* Внутрішні відступи для текстового блоку */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь для текстового блоку */
+    border-radius: 8px; /* Закруглені кути текстового блоку */
+}
+
+
+#promotions .book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-info {
+    width: 40%; /* Регулює ширину блоку з інформацією */
+    padding: 20px;
+    background-color: #ffffffd0; /* Задає колір фону блоку */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Додає тінь для ефекту піднятості блоку */
+}
+
+.custom2-text {
+    text-align: right; /* Вирівнювання тексту вправо */
+}
+
+h1 {
+    color:#f7f7f7;
+}
+
+h2 {
+    color: #f7f7f7;
+}
+
+
+#tablet h2 {
+    text-align: center;
+}
+
+.tablet {
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 170%; /* Altere este valor para ajustar a largura do contêiner */
+    max-width: 1200px; /* Defina uma largura máxima se desejar */
+    
+    }
+
+
+
+
+
+table {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    border-collapse: collapse; /* Объединение границ ячеек */
+    width: 50%; 
+    table-layout: fixed;
+    background-color: #ffffff;
+    vertical-align:top;
+    -webkit-box-orient: vertical;
+    margin: auto;
+    border-radius: 30px;
+    overflow: hidden; 
+    vertical-align: top;
+    -webkit-box-orient: vertical;
+    border: 10px solid #ffd700
+
+
+
+    
+}
+
+tr {
+    font-family: "Rock Salt", cursive;
+    border: 1px solid #050505; /* Границы ячеек и заголовков */
+    padding: 8px; /* Отступ внутри ячеек */
+    text-align: left; /* Выравнивание текста по левому краю */
+    color: #000000;
+}
+
+td {
+    border: 1px solid #050505; /* Границы ячеек и заголовков */
+    padding: 8px; /* Отступ внутри ячеек */
+    text-align: left; /* Выравнивание текста по левому краю */
+    color: #000000;
+}
+    
+
+.pretable {
+    text-align: center;
+}
+
+
+
+
+
+#casino-description {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #0a0a3e; /* Темно-синій фон */
+    padding: 20px;
+    color: #fff; /* Білий колір тексту */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Тінь */
+}
+
+#casino-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#casino-description p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+#casino-description .highlight {
+    color: #ffcc00; /* Жовтий колір для виділеного тексту */
+}
+
+
+
+
+#bonus2-button {
+    cursor: pointer;
+    background-color: #daa700;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#bonus2-button:hover {
+    background-color: #b16d14;
+}
+
+
+
+#close-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: red;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+#close-button:hover {
+    background-color: darkred;
+}
+
+
+.bonus2-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9e6700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bonus2-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.5;
+    transform: skewX(-45deg);
+    transition: all 0.3s;
+}
+
+.bonus2-button:hover:after {
+    width: 120%;
+    left: -10%;
+}
+
+#bonus2-button {
+    text-decoration: none;
+}
+
+  
+
+/* CSS */
+#logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #win-display {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #007bff; /* Змініть колір за вашим смаком */
+  }
+  
+
+  #bonuses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#bonuses h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#bonuses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#bonuses h2 {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+#bonuses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#bonuses h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.bonus {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    border: 2px solid #ff9933;
+}
+
+.bonus img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.button2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: block;
+    padding: 6px 25px;
+    background-color: #7F192C;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px; /* Зменшено значення border-radius для менш круглої кнопки */
+    text-align: center;
+}
+
+
+.bonus:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+#pinup-text {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#pinup-text h1 {
+    color: #333;
+}
+
+#pinup-text p {
+    color: #1a1a1a;
+    line-height: 1.5;
+}
+
+
+
+#pinup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%; /* Altere este valor para ajustar a largura do contêiner */
+    max-width: 600px; /* Defina uma largura máxima se desejar */
+    margin: right;
+}
+
+#pinup-container h1 {
+    color: #333;
+}
+
+#pinup-container p {
+    color: #666;
+    line-height: 1.5;
+}
+
+
+#main-container {
+    
+    display: flex;
+    justify-content: space-between; /* Distribui os contêineres na largura total */
+    max-width: 1400px; /* Defina a largura máxima conforme necessário */
+    margin: auto; /* Centraliza os contêineres */
+
+}
+
+
+
+
+
+      #pinup-container2 {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 70%; /* Altere este valor para ajustar a largura do contêiner */
+        max-width: 600px; /* Defina uma largura máxima se desejar */
+    }
+    
+    #pinup-container2 h1 {
+        color: #333;
+    }
+    
+    #pinup-container2 p {
+        color: #666;
+        line-height: 1.5;
+   }
+
+
+   
+
+
+    #pinup-container3 {
+        background-color: #e2e2e2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 170%; /* Altere este valor para ajustar a largura do contêiner */
+        max-width: 1200px; /* Defina uma largura máxima se desejar */
+        margin: auto;
+    }
+    
+    #pinup-container3 h1 {
+        color: #333;
+    }
+    
+    #pinup-container3 p {
+        color: #0a0a0a;
+        line-height: 1.5;
+    }
+    
+    
+    #main-container3 {
+        display: flex;
+        justify-content: space-between; /* Distribui os contêineres na largura total */
+        max-width: 1500px; /* Defina a largura máxima conforme necessário */
+        margin: 0 auto; /* Centraliza os contêineres */
+    }
+
+
+
+
+    #pinup-container4 {
+        background-color: #e2e2e2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 170%; /* Altere este valor para ajustar a largura do contêiner */
+        max-width: 1200px; /* Defina uma largura máxima se desejar */
+        margin: auto;
+    }
+    
+    #pinup-container4 h1 {
+        color: #333;
+    }
+    
+    #pinup-container4 p {
+        color: #0a0a0a;
+        line-height: 1.5;
+    }
+    
+    
+    #main-container4 {
+        display: flex;
+        justify-content: space-between; /* Distribui os contêineres na largura total */
+        max-width: 1500px; /* Defina a largura máxima conforme necessário */
+        margin: 0 auto; /* Centraliza os contêineres */
+    }
+
+
+    #pinup-container5 {
+        background-color: #e2e2e2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 170%; /* Altere este valor para ajustar a largura do contêiner */
+        max-width: 1200px; /* Defina uma largura máxima se desejar */
+        margin: auto;
+    }
+    
+    #pinup-container5 h1 {
+        color: #333;
+    }
+    
+    #pinup-container5 p {
+        color: #0a0a0a;
+        line-height: 1.5;
+    }
+    
+    
+    #main-container5 {
+        display: flex;
+        justify-content: space-between; /* Distribui os contêineres na largura total */
+        max-width: 1500px; /* Defina a largura máxima conforme necessário */
+        margin: 0 auto; /* Centraliza os contêineres */
+    }
+
+
+
+
+    #pinup-container6 {
+        background-color: #e2e2e2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 170%; /* Altere este valor para ajustar a largura do contêiner */
+        max-width: 1200px; /* Defina uma largura máxima se desejar */
+        margin: auto;
+    }
+    
+    #pinup-container6 h1 {
+        color: #333;
+    }
+    
+    #pinup-container6 p {
+        color: #0a0a0a;
+        line-height: 1.5;
+    }
+    
+    
+    #main-container6 {
+        display: flex;
+        justify-content: space-between; /* Distribui os contêineres na largura total */
+        max-width: 1500px; /* Defina a largura máxima conforme necessário */
+        margin: 0 auto; /* Centraliza os contêineres */
+    }
+
+
+   
+    #pinup-container7 {
+        background-color: #e2e2e2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 170%; /* Altere este valor para ajustar a largura do contêiner */
+        max-width: 1200px; /* Defina uma largura máxima se desejar */
+        margin: auto;
+    }
+    
+    #pinup-container7 h1 {
+        color: #333;
+    }
+    
+    #pinup-container7 p {
+        color: #0a0a0a;
+        line-height: 1.5;
+    }
+    
+    
+    #main-container7 {
+        display: flex;
+        justify-content: space-between; /* Distribui os contêineres na largura total */
+        max-width: 1500px; /* Defina a largura máxima conforme necessário */
+        margin: 0 auto; /* Centraliza os contêineres */
+    }
+
+
+
+ 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #perguntas-frequentes {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq {
+    margin-top: 20px;
+}
+
+.details {
+    margin-bottom: 15px;
+}
+
+.summary {
+    background-color: #e0e0e0;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.summary::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #333;
+}
+
+.details[open] .summary::after {
+    content: "–";
+}
+
+.answer {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.wp-block-heading {
+    color: #ffffff; /* Substitua #ff0000 pelo código de cor desejado */
+}
+
+
+#perguntas-frequentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#perguntas-frequentes h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.faq {
+    position: relative;
+    width: 1000px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(238, 13, 13, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s;
+    border: 2px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto; /* Ajuste o valor conforme necessário */
+}
+
+
+
+.faq p {
+    margin: 0; /* Para remover a margem padrão do parágrafo */
+}
+
+
+
+@media (max-width: 500px) {
+    .faq {
+      width: 90%; /* Задайте ширину на всю ширину екрану для телефонів */
+      margin-left: 1px; /* Наприклад, додайте невеликий відступ зліва */
+      margin-right: 1px; /* Наприклад, додайте невеликий відступ справа */
+    }
+}
+
+     
+      
+
+
+
+
+
+
+
+ 
+      body {
+        margin: 0;
+        font-size: var(--b-font-size);
+        font-family: Roboto,sans-serif;
+        color: var(--text-body-color);
+        overflow-y: scroll;
+        overflow-x: hidden
+       }
+
+
+    body .container,body .no-sidebar .page-content>*,body .with-sidebar .page-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 100%
+    }
+
+
+
+    
+    .faq details {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid var(--main-accent-color);
+        border-radius: var(--border-radius);
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 15px;
+        position: relative;
+        line-height: 142%
+    }
+    
+    .faq summary {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 100%;
+        outline: 0;
+        cursor: pointer;
+        display: block;
+        margin-right: -10px
+    }
+    
+    .faq summary::-webkit-details-marker,.faq summary::marker {
+        display: none;
+        content: ""
+    }
+    
+    .faq summary::after {
+        content: "\203A";
+        position: absolute;
+        top: 0px;
+        right: 30px;
+        -webkit-transition: .5s;
+        transition: .5s;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        font-size: 3rem;
+        color: var(--text-body-color);
+        width: 12px;
+        height: 40px
+    }
+    
+    .faq details[open] summary::after {
+        -webkit-transition: .5s;
+        transition: .5s;
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg)
+    }
+    
+    .q_and_a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    
+    .q_and_a details {
+        width: 48.5%;
+        height: 273px;
+        position: relative;
+        background: #fff;
+        box-shadow: 0 0 25px #00000012;
+        -webkit-box-shadow: 0 0 25px #00000012;
+        margin-bottom: 30px;
+        min-width: 470px
+    }
+    
+    .q_and_a details summary {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 142.69%;
+        padding: 100px 20px 50px 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    
+    .q_and_a details summary::-webkit-details-marker,.q_and_a details summary::marker {
+        display: none;
+        content: ""
+    }
+    
+    .q_and_a details summary svg {
+        width: 70px;
+        min-width: 70px;
+        fill: var(--main-accent-color);
+        padding-right: 30px
+    }
+    
+    .q_and_a details[open]:hover div {
+        opacity: 1
+    }
+    
+    .q_and_a details[open] div {
+        background-color: var(--main-accent-color);
+        background-image: url(../images/back-qr.png);
+        background-position: 50%;
+        background-size: 110%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 25px 40px;
+        color: #fff;
+        line-height: 142%;
+        opacity: 0;
+        -webkit-transition: .3s;
+        transition: .3s;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: -webkit-fill-available;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    
+    .q_and_a details[open] a {
+        display: inline-block;
+        color: #fff;
+        outline: 0
+    }
+    
+    .q_and_a details[open] p {
+        margin: 2px 0
+    }    
+
+
+
+
+
+
+
+
+
